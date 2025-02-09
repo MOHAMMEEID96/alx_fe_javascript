@@ -49,8 +49,9 @@ body.appendChild(inputContainer);
 
 // زر تصدير JSON
 const exportBtn = document.createElement("button");
-exportBtn.textContent = "Export JSON";
+exportBtn.textContent = "Export Quotes"; // بدلاً من "Export JSON"
 body.appendChild(exportBtn);
+
 
 // زر استيراد JSON
 const importInput = document.createElement("input");
@@ -135,3 +136,6 @@ newQuoteBtn.addEventListener("click", showRandomQuote);
 addQuoteBtn.addEventListener("click", addNewQuote);
 exportBtn.addEventListener("click", exportToJsonFile);
 importInput.addEventListener("change", importFromJsonFile);
+
+index.html doesn't contain: ["Export Quotes", "button"]
+
