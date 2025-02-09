@@ -45,3 +45,5 @@ function createAddQuoteForm() {
 // إضافة الأحداث للأزرار
 document.getElementById("newQuote").addEventListener("click", showRandomQuote);
 document.getElementById("createAddQuoteFormBtn").addEventListener("click", createAddQuoteForm);
+
+script.js doesn't contain: ["createElement", "appendChild"]
