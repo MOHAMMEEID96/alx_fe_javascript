@@ -21,7 +21,7 @@ const quotes = [
   }
   
   // دالة لإضافة اقتباس جديد
-  function addQuote() {
+  function createAddQuoteForm() {
     const newQuoteText = document.getElementById("newQuoteText").value.trim();
     const newQuoteCategory = document.getElementById("newQuoteCategory").value.trim();
   
@@ -41,5 +41,5 @@ const quotes = [
   
   // إضافة الأحداث للأزرار
   document.getElementById("newQuote").addEventListener("click", showRandomQuote);
-  document.getElementById("addQuoteBtn").addEventListener("click", addQuote);
+  document.getElementById("createAddQuoteFormBtn").addEventListener("click", createAddQuoteForm);
   
